@@ -1,0 +1,89 @@
+1601283486a:1:{s:9:"index.htm";a:7:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:2025:"[viewBag]
+title = "Home"
+url = "/"
+layout = "home"
+is_hidden = 0
+navigation_hidden = 0
+slider[0][slidercaption] = "<p>No more misfuelling</p>"
+slider[0][slide] = "/images/slider/solodiesel-1.jpg"
+slider[1][slidercaption] = "<p>No more misfuelling</p>"
+slider[1][slide] = "/images/slider/solodiesel-2.jpg"
+slider[2][slidercaption] = "<p>No more misfuelling</p>"
+slider[2][slide] = "/images/slider/solodiesel-3.jpg"
+==
+<div class="row">
+	<div class="col-12 col-lg-7">
+
+		<h1>SoloDiesel - Misfuelling protection</h1>
+
+		<p>Do you know anyone who put petrol in a diesel car? Has this happened to you?</p>
+
+		<p>With SoloDiesel misfuelling prevention cap wrong fuel becomes a part of the past. Replacing the original cap with a SoloDiesel cap is simple and fast and it physically prevents misfuelling.</p>
+
+		<p>Fueling your diesel car will now be safe, fast, and comfortable and it also complies with all European standards.</p>
+
+		<h2>You can save up to several thousands of Euros!</h2>
+
+		<p>Install the SoloDiesel cap and save money and patience. Putting petrol in a diesel car can cost you a few thousand Euros, not to mention additional problems caused by lost time.</p>
+
+		<h2>Do you think it can't happen to you?</h2>
+
+		<p>Market studies show that one out of two drivers knows someone who has misfuelled. Don't take that risk - choose SoloDiesel and you won't have to think about misfuelling ever again.</p>
+
+		<h2>Misfuelling prevention for almost all types of diesel car</h2>
+
+		<p>The SoloDiesel cap offers protection from misfuelling for all types of newer and older <a href="/car-list">diesel cars</a>, even those older than the year 1980. Eight different types of SoloDiesel caps protect 95 percent of all diesel cars.</p>
+	</div>
+	<div class="col-12 col-lg-5"><img src="/storage/app/media/images/solodiesel-product.png" class="fr-fic fr-dib img-fluid p-5 lazyload" data-src="/storage/app/media/images/solodiesel-product.png">
+		<figure data-snippet="benefits">&nbsp;</figure>
+	</div></div>";s:5:"mtime";i:1601276774;s:6:"markup";s:1608:"<div class="row">
+	<div class="col-12 col-lg-7">
+
+		<h1>SoloDiesel - Misfuelling protection</h1>
+
+		<p>Do you know anyone who put petrol in a diesel car? Has this happened to you?</p>
+
+		<p>With SoloDiesel misfuelling prevention cap wrong fuel becomes a part of the past. Replacing the original cap with a SoloDiesel cap is simple and fast and it physically prevents misfuelling.</p>
+
+		<p>Fueling your diesel car will now be safe, fast, and comfortable and it also complies with all European standards.</p>
+
+		<h2>You can save up to several thousands of Euros!</h2>
+
+		<p>Install the SoloDiesel cap and save money and patience. Putting petrol in a diesel car can cost you a few thousand Euros, not to mention additional problems caused by lost time.</p>
+
+		<h2>Do you think it can't happen to you?</h2>
+
+		<p>Market studies show that one out of two drivers knows someone who has misfuelled. Don't take that risk - choose SoloDiesel and you won't have to think about misfuelling ever again.</p>
+
+		<h2>Misfuelling prevention for almost all types of diesel car</h2>
+
+		<p>The SoloDiesel cap offers protection from misfuelling for all types of newer and older <a href="/car-list">diesel cars</a>, even those older than the year 1980. Eight different types of SoloDiesel caps protect 95 percent of all diesel cars.</p>
+	</div>
+	<div class="col-12 col-lg-5"><img src="/storage/app/media/images/solodiesel-product.png" class="fr-fic fr-dib img-fluid p-5 lazyload" data-src="/storage/app/media/images/solodiesel-product.png">
+		<figure data-snippet="benefits">&nbsp;</figure>
+	</div></div>";s:4:"code";N;s:7:"viewBag";a:6:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:4:"home";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";s:6:"slider";a:3:{i:0;a:2:{s:13:"slidercaption";s:26:"<p>No more misfuelling</p>";s:5:"slide";s:31:"/images/slider/solodiesel-1.jpg";}i:1;a:2:{s:13:"slidercaption";s:26:"<p>No more misfuelling</p>";s:5:"slide";s:31:"/images/slider/solodiesel-2.jpg";}i:2;a:2:{s:13:"slidercaption";s:26:"<p>No more misfuelling</p>";s:5:"slide";s:31:"/images/slider/solodiesel-3.jpg";}}}s:12:"parsedMarkup";s:1608:"<div class="row">
+	<div class="col-12 col-lg-7">
+
+		<h1>SoloDiesel - Misfuelling protection</h1>
+
+		<p>Do you know anyone who put petrol in a diesel car? Has this happened to you?</p>
+
+		<p>With SoloDiesel misfuelling prevention cap wrong fuel becomes a part of the past. Replacing the original cap with a SoloDiesel cap is simple and fast and it physically prevents misfuelling.</p>
+
+		<p>Fueling your diesel car will now be safe, fast, and comfortable and it also complies with all European standards.</p>
+
+		<h2>You can save up to several thousands of Euros!</h2>
+
+		<p>Install the SoloDiesel cap and save money and patience. Putting petrol in a diesel car can cost you a few thousand Euros, not to mention additional problems caused by lost time.</p>
+
+		<h2>Do you think it can't happen to you?</h2>
+
+		<p>Market studies show that one out of two drivers knows someone who has misfuelled. Don't take that risk - choose SoloDiesel and you won't have to think about misfuelling ever again.</p>
+
+		<h2>Misfuelling prevention for almost all types of diesel car</h2>
+
+		<p>The SoloDiesel cap offers protection from misfuelling for all types of newer and older <a href="/car-list">diesel cars</a>, even those older than the year 1980. Eight different types of SoloDiesel caps protect 95 percent of all diesel cars.</p>
+	</div>
+	<div class="col-12 col-lg-5"><img src="/storage/app/media/images/solodiesel-product.png" class="fr-fic fr-dib img-fluid p-5 lazyload" data-src="/storage/app/media/images/solodiesel-product.png">
+		<figure data-snippet="benefits">&nbsp;</figure>
+	</div></div>";}}

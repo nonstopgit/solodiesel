@@ -1,0 +1,6 @@
+static-pages:
+    index: {  }
+    about: {  }
+    car-list: {  }
+    faq: {  }
+    contact: {  }

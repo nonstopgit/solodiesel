@@ -1,0 +1,31 @@
+1601283487a:1:{s:16:"header-title.htm";a:5:{s:8:"fileName";s:16:"header-title.htm";s:7:"content";s:659:"{#% if header %}
+    {% set headerImage = header|media %}
+{% else %}
+    {% set headerImage = "/storage/app/media/content/header/header-sample.jpg" %}
+{% endif %#}
+{#<div class="headerimage{{ headersize }}" style="background-image: url('{{ headerImage }}');">#}
+<div class="headerimage" style="background-image: url('/storage/app/media/images/slider/solodiesel-1.jpg');">
+    <div class="container">
+        <div class="row">
+            <div class="text">
+                <h1>{{ this.page.title }}</h1>
+                {#<h3 data-aos="fade-left" data-aos-delay="300">{{ caption|raw }}</h3>#}
+            </div>
+        </div>
+    </div>
+</div>";s:5:"mtime";i:1601221087;s:6:"markup";s:659:"{#% if header %}
+    {% set headerImage = header|media %}
+{% else %}
+    {% set headerImage = "/storage/app/media/content/header/header-sample.jpg" %}
+{% endif %#}
+{#<div class="headerimage{{ headersize }}" style="background-image: url('{{ headerImage }}');">#}
+<div class="headerimage" style="background-image: url('/storage/app/media/images/slider/solodiesel-1.jpg');">
+    <div class="container">
+        <div class="row">
+            <div class="text">
+                <h1>{{ this.page.title }}</h1>
+                {#<h3 data-aos="fade-left" data-aos-delay="300">{{ caption|raw }}</h3>#}
+            </div>
+        </div>
+    </div>
+</div>";s:4:"code";N;}}

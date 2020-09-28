@@ -1,0 +1,63 @@
+items:
+    -
+        title: Home
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: index
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: About
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: about
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Vehicle list'
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: car-list
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: FAQ
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: faq
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Contact
+        type: cms-page
+        code: ''
+        reference: contact
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: menu-en
