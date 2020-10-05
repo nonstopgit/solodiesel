@@ -1,11 +1,11 @@
-1601283487a:1:{s:10:"navbar.htm";a:8:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:1024:"description = "Navigation bar"
+1601887475a:1:{s:10:"navbar.htm";a:8:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:1023:"description = "Navigation bar"
 
 [viewBag]
 
 [staticMenu]
 code = "menu-en"
 ==
-<section>	
+<section>
 	<nav class="navbar navbar-expand-lg fixed-top">
 		<div class="container">
 			<a class="navbar-brand font-weight-bold" href="/"><img src="/themes/solodiesel/assets/images/solodiesel-logo-a.png" alt="Solodiesel"></a>
@@ -24,7 +24,7 @@ code = "menu-en"
 			</div>
 		</div>
 	</nav>
-</section>";s:5:"mtime";i:1601032744;s:6:"markup";s:941:"<section>	
+</section>";s:5:"mtime";i:1601886759;s:6:"markup";s:940:"<section>
 	<nav class="navbar navbar-expand-lg fixed-top">
 		<div class="container">
 			<a class="navbar-brand font-weight-bold" href="/"><img src="/themes/solodiesel/assets/images/solodiesel-logo-a.png" alt="Solodiesel"></a>

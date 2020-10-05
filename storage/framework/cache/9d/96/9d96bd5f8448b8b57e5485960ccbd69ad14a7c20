@@ -1,14 +1,14 @@
-1601283486a:1:{s:9:"index.htm";a:7:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:2025:"[viewBag]
+1601887290a:1:{s:9:"index.htm";a:7:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:2040:"[viewBag]
 title = "Home"
 url = "/"
 layout = "home"
 is_hidden = 0
 navigation_hidden = 0
-slider[0][slidercaption] = "<p>No more misfuelling</p>"
+slider[0][slidercaption] = "<p>Diesel Engine Protection</p>"
 slider[0][slide] = "/images/slider/solodiesel-1.jpg"
-slider[1][slidercaption] = "<p>No more misfuelling</p>"
+slider[1][slidercaption] = "<p>Diesel Engine Protection</p>"
 slider[1][slide] = "/images/slider/solodiesel-2.jpg"
-slider[2][slidercaption] = "<p>No more misfuelling</p>"
+slider[2][slidercaption] = "<p>Diesel Engine Protection</p>"
 slider[2][slide] = "/images/slider/solodiesel-3.jpg"
 ==
 <div class="row">
@@ -36,7 +36,7 @@ slider[2][slide] = "/images/slider/solodiesel-3.jpg"
 	</div>
 	<div class="col-12 col-lg-5"><img src="/storage/app/media/images/solodiesel-product.png" class="fr-fic fr-dib img-fluid p-5 lazyload" data-src="/storage/app/media/images/solodiesel-product.png">
 		<figure data-snippet="benefits">&nbsp;</figure>
-	</div></div>";s:5:"mtime";i:1601276774;s:6:"markup";s:1608:"<div class="row">
+	</div></div>";s:5:"mtime";i:1601885297;s:6:"markup";s:1608:"<div class="row">
 	<div class="col-12 col-lg-7">
 
 		<h1>SoloDiesel - Misfuelling protection</h1>
@@ -61,7 +61,7 @@ slider[2][slide] = "/images/slider/solodiesel-3.jpg"
 	</div>
 	<div class="col-12 col-lg-5"><img src="/storage/app/media/images/solodiesel-product.png" class="fr-fic fr-dib img-fluid p-5 lazyload" data-src="/storage/app/media/images/solodiesel-product.png">
 		<figure data-snippet="benefits">&nbsp;</figure>
-	</div></div>";s:4:"code";N;s:7:"viewBag";a:6:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:4:"home";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";s:6:"slider";a:3:{i:0;a:2:{s:13:"slidercaption";s:26:"<p>No more misfuelling</p>";s:5:"slide";s:31:"/images/slider/solodiesel-1.jpg";}i:1;a:2:{s:13:"slidercaption";s:26:"<p>No more misfuelling</p>";s:5:"slide";s:31:"/images/slider/solodiesel-2.jpg";}i:2;a:2:{s:13:"slidercaption";s:26:"<p>No more misfuelling</p>";s:5:"slide";s:31:"/images/slider/solodiesel-3.jpg";}}}s:12:"parsedMarkup";s:1608:"<div class="row">
+	</div></div>";s:4:"code";N;s:7:"viewBag";a:6:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:4:"home";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";s:6:"slider";a:3:{i:0;a:2:{s:13:"slidercaption";s:31:"<p>Diesel Engine Protection</p>";s:5:"slide";s:31:"/images/slider/solodiesel-1.jpg";}i:1;a:2:{s:13:"slidercaption";s:31:"<p>Diesel Engine Protection</p>";s:5:"slide";s:31:"/images/slider/solodiesel-2.jpg";}i:2;a:2:{s:13:"slidercaption";s:31:"<p>Diesel Engine Protection</p>";s:5:"slide";s:31:"/images/slider/solodiesel-3.jpg";}}}s:12:"parsedMarkup";s:1608:"<div class="row">
 	<div class="col-12 col-lg-7">
 
 		<h1>SoloDiesel - Misfuelling protection</h1>

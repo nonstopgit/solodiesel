@@ -59,7 +59,7 @@ class __TwigTemplate_da76c742f0d4514c9056b4e5e458252517e3c8a1059911681cb8a8a60d1
     {
         $macros = $this->macros;
         // line 1
-        echo "<section>\t
+        echo "<section>
 \t<nav class=\"navbar navbar-expand-lg fixed-top\">
 \t\t<div class=\"container\">
 \t\t\t<a class=\"navbar-brand font-weight-bold\" href=\"/\"><img src=\"/themes/solodiesel/assets/images/solodiesel-logo-a.png\" alt=\"Solodiesel\"></a>
@@ -117,7 +117,7 @@ class __TwigTemplate_da76c742f0d4514c9056b4e5e458252517e3c8a1059911681cb8a8a60d1
 
     public function getSourceContext()
     {
-        return new Source("<section>\t
+        return new Source("<section>
 \t<nav class=\"navbar navbar-expand-lg fixed-top\">
 \t\t<div class=\"container\">
 \t\t\t<a class=\"navbar-brand font-weight-bold\" href=\"/\"><img src=\"/themes/solodiesel/assets/images/solodiesel-logo-a.png\" alt=\"Solodiesel\"></a>

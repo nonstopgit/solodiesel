@@ -1,12 +1,15 @@
-1601282872a:1:{s:23:"genericForm/default.htm";a:6:{s:8:"fileName";s:23:"genericForm/default.htm";s:7:"content";s:4134:"[viewBag]
+1601887290a:1:{s:23:"genericForm/default.htm";a:6:{s:8:"fileName";s:23:"genericForm/default.htm";s:7:"content";s:4400:"[viewBag]
 ==
 <section class="form">
-    <form data-request="{{ __SELF__ }}::onFormSubmit" data-request-validate>
+    <p>You can send us your questions, comments, wishes and suggestions with the use of the form below. Please, fill out the form bellow and click on the send button. We assure You that you will receive your answer no later than in 2 working days.</p>
+    
+    <div id="{{ __SELF__ }}_forms_flash"></div>
+
+    <form data-request="{{ __SELF__ }}::onFormSubmit" data-request-validate id="inform">
 
         {{ form_token() }}
     
-        <div id="{{ __SELF__ }}_forms_flash"></div>
-
+ 
         <!-- row 1 -->
         <div class="row">
 
@@ -95,21 +98,24 @@
 
         </div>
 
-        <div class="form-group">
-            {#% partial '@recaptcha' %#}recaptcha
-        </div>
+        <!--div class="form-group">
+            {#% partial '@recaptcha' %#}
+        </div-->
     
         <button id="simpleContactSubmitButton" type="submit" class="btn btn-default">Submit</button>
     
     </form>
 
-</section>";s:5:"mtime";i:1601281457;s:6:"markup";s:4119:"<section class="form">
-    <form data-request="{{ __SELF__ }}::onFormSubmit" data-request-validate>
+</section>";s:5:"mtime";i:1601302016;s:6:"markup";s:4385:"<section class="form">
+    <p>You can send us your questions, comments, wishes and suggestions with the use of the form below. Please, fill out the form bellow and click on the send button. We assure You that you will receive your answer no later than in 2 working days.</p>
+    
+    <div id="{{ __SELF__ }}_forms_flash"></div>
+
+    <form data-request="{{ __SELF__ }}::onFormSubmit" data-request-validate id="inform">
 
         {{ form_token() }}
     
-        <div id="{{ __SELF__ }}_forms_flash"></div>
-
+ 
         <!-- row 1 -->
         <div class="row">
 
@@ -198,9 +204,9 @@
 
         </div>
 
-        <div class="form-group">
-            {#% partial '@recaptcha' %#}recaptcha
-        </div>
+        <!--div class="form-group">
+            {#% partial '@recaptcha' %#}
+        </div-->
     
         <button id="simpleContactSubmitButton" type="submit" class="btn btn-default">Submit</button>
     

@@ -6,7 +6,7 @@ is_hidden = 0
 [genericForm]
 rules[name] = "required"
 rules[phone] = "required"
-rules[email] = "required"
+rules[email] = "required|email"
 rules[message] = "required"
 rules_messages[name.required] = "Please enter your name"
 rules_messages[phone.required] = "Please enter your phone"
@@ -22,7 +22,7 @@ reset_form = 1
 inline_errors = "display"
 sanitize_data = "disabled"
 anonymize_ip = "disabled"
-recaptcha_enabled = 1
+recaptcha_enabled = 0
 recaptcha_theme = "dark"
 recaptcha_type = "image"
 recaptcha_size = "normal"

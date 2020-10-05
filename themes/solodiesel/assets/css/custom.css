@@ -41,8 +41,9 @@ a:hover {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
 }
-.navbar-brand img{
+.navbar-brand img {
     height: 100px;
+    margin-left: 1em;
 	-webkit-transition:all 0.2s ease;
 	-moz-transition:all 0.2s ease; 
 	-o-transition:all 0.2s ease;        
@@ -220,7 +221,7 @@ header .slider {
 .carousel-caption {
     text-shadow: 1px 1px 8px #000;
     /*background: rgba(10, 122, 219, 0.6);*/
-    /*padding: 1em;*/
+    padding: 1em 2em;
     color: #fff;
 }
 .carousel h2 {
@@ -232,9 +233,10 @@ header .slider {
     font-size: 1.5rem;
 }
 .carousel-item {
-    height: 100vh;
-    min-height: 640px;
+    /*height: 100vh;*/
+    /*min-height: 640px;*/
     /*max-height: 480px;*/
+    height: 480px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -251,8 +253,9 @@ header .slider {
 }
 
 .slider {
-    height: 100vh;
-    min-height: 400px;
+    /*height: 100vh;*/
+    /*min-height: 400px;*/
+    height: 480px;
 }  
 .slider .slide {
     width: 100%;

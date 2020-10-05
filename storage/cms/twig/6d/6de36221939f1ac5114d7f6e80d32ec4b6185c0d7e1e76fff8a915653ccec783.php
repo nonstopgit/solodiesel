@@ -29,13 +29,13 @@ class __TwigTemplate_34772a381b81b6cd95e4dfcd0074ec9bd2abf53498fb11e88eb665880cf
         $this->blocks = [
         ];
         $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
-        $tags = array("framework" => 10, "scripts" => 12);
-        $filters = array("theme" => 9);
+        $tags = array("scripts" => 11, "framework" => 12);
+        $filters = array("theme" => 10);
         $functions = array();
 
         try {
             $this->sandbox->checkSecurity(
-                ['framework', 'scripts'],
+                ['scripts', 'framework'],
                 ['theme'],
                 []
             );
@@ -60,15 +60,14 @@ class __TwigTemplate_34772a381b81b6cd95e4dfcd0074ec9bd2abf53498fb11e88eb665880cf
         $macros = $this->macros;
         // line 1
         echo "<script src=\"";
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter([0 => "assets/vendor/jquery/dist/jquery.min.js", 1 => "assets/vendor/tether/dist/js/tether.min.js", 2 => "assets/vendor/bootstrap/dist/js/bootstrap.min.js", 3 => "assets/vendor/wow/dist/wow.min.js", 4 => "assets/vendor/holderjs/holder.min.js", 5 => "assets/vendor/plyr/dist/plyr.js", 6 => "assets/js/scripts.js"]);
-        // line 9
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter([0 => "assets/vendor/jquery/dist/jquery.min.js", 1 => "assets/vendor/tether/dist/js/tether.min.js", 2 => "assets/vendor/bootstrap/dist/js/bootstrap.min.js", 3 => "assets/vendor/wow/dist/wow.min.js", 4 => "assets/vendor/holderjs/holder.min.js", 5 => "assets/vendor/plyr/dist/plyr.js", 6 => "assets/vendor/lazyload/dist/lazyload.min.js", 7 => "assets/js/scripts.js"]);
+        // line 10
         echo "\"></script>
     ";
-        // line 10
-        $_minify = System\Classes\CombineAssets::instance()->useMinify;
-        echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework'.($_minify ? '-min' : '').'.js"></script>'.PHP_EOL;
-        unset($_minify);
         // line 11
+        echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
+        echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
+        // line 12
         echo "    ";
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         if ($_minify) {
@@ -80,17 +79,13 @@ class __TwigTemplate_34772a381b81b6cd95e4dfcd0074ec9bd2abf53498fb11e88eb665880cf
         }
         echo '<link rel="stylesheet" property="stylesheet" href="' . Request::getBasePath() .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
         unset($_minify);
-        // line 12
-        echo "    ";
-        echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
-        echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
         // line 13
         echo "    <script>
       \$(document).ready(function () {
 
-        lazyload();
+        //lazyload();
 
-      });
+      });      
     </script>";
     }
 
@@ -106,7 +101,7 @@ class __TwigTemplate_34772a381b81b6cd95e4dfcd0074ec9bd2abf53498fb11e88eb665880cf
 
     public function getDebugInfo()
     {
-        return array (  88 => 13,  84 => 12,  72 => 11,  68 => 10,  65 => 9,  62 => 1,);
+        return array (  83 => 13,  71 => 12,  68 => 11,  65 => 10,  62 => 1,);
     }
 
     public function getSourceContext()
@@ -118,17 +113,17 @@ class __TwigTemplate_34772a381b81b6cd95e4dfcd0074ec9bd2abf53498fb11e88eb665880cf
       'assets/vendor/wow/dist/wow.min.js',
       'assets/vendor/holderjs/holder.min.js',
       'assets/vendor/plyr/dist/plyr.js',
+      'assets/vendor/lazyload/dist/lazyload.min.js',
       'assets/js/scripts.js'
     ]|theme }}\"></script>
-    {% framework %}
-    {% framework extras %}
     {% scripts %}
+    {% framework extras %}
     <script>
       \$(document).ready(function () {
 
-        lazyload();
+        //lazyload();
 
-      });
+      });      
     </script>", "/home/vagrant/code/solodiesel/themes/solodiesel/partials/scripts.htm", "");
     }
 }

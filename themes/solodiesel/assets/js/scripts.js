@@ -17,3 +17,8 @@ $(document).ready(function () {
     });
     
 });
+
+function hideform() {
+    $("#inform").hide();
+    alert('kwaka');
+}

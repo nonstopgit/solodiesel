@@ -2,12 +2,14 @@
 ==
 <section class="form">
     <p>You can send us your questions, comments, wishes and suggestions with the use of the form below. Please, fill out the form bellow and click on the send button. We assure You that you will receive your answer no later than in 2 working days.</p>
-    <form data-request="{{ __SELF__ }}::onFormSubmit" data-request-validate>
+    
+    <div id="{{ __SELF__ }}_forms_flash"></div>
+
+    <form data-request="{{ __SELF__ }}::onFormSubmit" data-request-validate id="inform">
 
         {{ form_token() }}
     
-        <div id="{{ __SELF__ }}_forms_flash"></div>
-
+ 
         <!-- row 1 -->
         <div class="row">
 

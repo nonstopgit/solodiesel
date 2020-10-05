@@ -122,4 +122,5 @@
   'RainLab\\Translate\\Models\\MessageExport' => 'plugins/rainlab/translate/models/MessageExport.php',
   'backend\\Controllers\\media' => 'modules/backend/controllers/media.php',
   'martin\\forms\\Controllers\\records' => 'plugins/martin/forms/controllers/records.php',
+  'Martin\\Forms\\Classes\\SendMail' => 'plugins/martin/forms/classes/SendMail.php',
 );
