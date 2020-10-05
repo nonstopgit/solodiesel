@@ -17,7 +17,17 @@ default = 0
           {variable name="slidercaption" label="Slider Caption" type="richeditor" size="small"}{/variable}
           {variable name="slide" label="Image" type="mediafinder" mode="image"}{/variable}
         {/repeater}
-        {% partial 'slider' %}
+        <br><br><br><br><br><br>
+        <div class="container">
+          <div class="row d-flex align-content-stretch flex-wrap">            
+            <div class="col-12 col-lg-7">
+              {% partial 'slider' %}
+            </div>
+            <div class="col-12 col-lg-5 bnftcnt">
+              {% partial 'benefits' %}
+            </div>
+          </div>
+        </div>
       </header>
 
     <section id="page">
